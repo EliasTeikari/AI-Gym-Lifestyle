@@ -1,13 +1,13 @@
 import "./Navbar.css";
 
-type DayOption = "push" | "pull" | "legs" | "arms";
+type DayOption = "pushDay" | "pullDay" | "legsDay" | "armsDay";
 type NavItem = { id: DayOption; label: string };
 
 const NAV_ITEMS: NavItem[] = [
-    { id: "push", label: "Push Day" },
-    { id: "pull", label: "Pull Day" },
-    { id: "legs", label: "Legs Day" },
-    { id: "arms", label: "Arms Day" },
+    { id: "pushDay", label: "Push Day" },
+    { id: "pullDay", label: "Pull Day" },
+    { id: "legsDay", label: "Legs Day" },
+    { id: "armsDay", label: "Arms Day" },
 ];
 
 type NavbarProps = {

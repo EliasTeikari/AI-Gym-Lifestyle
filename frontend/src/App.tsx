@@ -1,6 +1,5 @@
 import "./App.css";
 import { useState } from "react";
-import PullDay from "./pages/PullDay";
 import ExerciseDayPage from "./pages/ExerciseDayPage";
 import Navbar from "./components/Navbar";
 

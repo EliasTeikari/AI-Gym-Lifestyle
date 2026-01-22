@@ -2,6 +2,7 @@ import exercisesJSON from "../data/exercises.json";
 import ExerciseCard from "../components/ExerciseCard";
 import type { ExercisesJson } from "../types/exercise";
 import "./ExerciseDayPage.css";
+import "../App.css";
 
 const exercises = exercisesJSON as ExercisesJson;
 const base = import.meta.env.VITE_IMAGE_BASE;

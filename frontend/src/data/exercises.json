@@ -75,6 +75,38 @@
                 "sets": 3,
                 "reps": "10-12"
             }
+        },
+        "legsDay": {
+            "seatedLegCurl": {
+                "name": "Seated Leg Curl",
+                "imageKey": "Legs/SeatedLegCurl.png",
+                "sets": 3,
+                "reps": "8-10"
+            },
+            "machineHipAdduction": {
+                "name": "Machine Hip Adduction",
+                "imageKey": "Legs/MachineHipAdduction.png",
+                "sets": 3,
+                "reps": "10-12"
+            },
+            "smithMachineSquat": {
+                "name": "Smith Machine Squat",
+                "imageKey": "Legs/SmithMachineSquat.png",
+                "sets": 3,
+                "reps": "4-8 (top-down)"
+            },
+            "legExtension": {
+                "name": "Leg Extension",
+                "imageKey": "Legs/LegExtension.png",
+                "sets": 3,
+                "reps": "10-12"
+            },
+            "dbCalfJump": {
+                "name": "DB Calf Jump",
+                "imageKey": "Legs/DBCalfJump.png",
+                "sets": 3,
+                "reps": "12-15"
+            }
         }
     }
 }
