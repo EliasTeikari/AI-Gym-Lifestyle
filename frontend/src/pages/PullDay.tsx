@@ -9,14 +9,19 @@ const pullDay = Object.values(exercises.exerciseDays.pullDay);
 const base = import.meta.env.VITE_IMAGE_BASE;
 
 function Exercise() {
-    return;
-    <>
-        <div className="exercisePage">
-            {pullDay.map((ex) => (
-                <ExerciseCard key={ex.imageKey} exercise={ex} baseUrl={base} />
-            ))}
-        </div>
-    </>;
+    return (
+        <>
+            <div className="exercisePage">
+                {pullDay.map((ex) => (
+                    <ExerciseCard
+                        key={ex.imageKey}
+                        exercise={ex}
+                        baseUrl={base}
+                    />
+                ))}
+            </div>
+        </>
+    );
 }
 
 export default Exercise;
