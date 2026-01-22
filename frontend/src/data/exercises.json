@@ -37,6 +37,44 @@
                 "sets": 3,
                 "reps": "12-15"
             }
+        },
+        "pushDay": {
+            "lowInclineDBPress": {
+                "name": "Low Incline DB Press",
+                "imageKey": "Push/LowInclineDBPress.png",
+                "sets": 3,
+                "reps": "8-12"
+            },
+            "overheadCableTricepsExtension": {
+                "name": "Overhead Cable Triceps Extension (Bar)",
+                "imageKey": "Push/OverheadCableTricepsExtension.png",
+                "sets": 3,
+                "reps": "10-15"
+            },
+            "bentOverCablePecFlye": {
+                "name": "Bent-Over Cable Pec Flye (w/ Integrated Partials)",
+                "imageKey": "Push/BentOverCablePecFlye.png",
+                "sets": 3,
+                "reps": "12-15"
+            },
+            "closeGripPushUp": {
+                "name": "Close-Grip Push Up",
+                "imageKey": "Push/CloseGripPushUp.png",
+                "sets": 3,
+                "reps": "To failure"
+            },
+            "cableCrunch": {
+                "name": "Cable Crunch",
+                "imageKey": "Push/CableCrunch.png",
+                "sets": 3,
+                "reps": "15-20"
+            },
+            "dbLateralRaise": {
+                "name": "DB Lateral Raise",
+                "imageKey": "Push/DBLateralRaise.png",
+                "sets": 3,
+                "reps": "10-12"
+            }
         }
     }
 }

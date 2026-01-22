@@ -1,10 +1,18 @@
 import "./App.css";
-import Exercise from "./pages/PullDay";
+import { useState } from "react";
+import PullDay from "./pages/PullDay";
+import ExerciseDayPage from "./pages/ExerciseDayPage";
+import Navbar from "./components/Navbar";
+
+type Day = "pushDay" | "pullDay" | "legsDay" | "armsDay";
 
 function App() {
+    const [day, setDay] = useState<Day>("pullDay");
+
     return (
         <>
-            <Exercise />
+            <Navbar activeDay={day} onSelect={setDay} />
+            <ExerciseDayPage dayId={day} />
         </>
     );
 }
