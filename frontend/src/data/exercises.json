@@ -1,0 +1,42 @@
+{
+    "exerciseDays": {
+        "pullDay": {
+            "latFocusedCableRow": {
+                "name": "Lat-Focused Cable Row",
+                "imageKey": "Pull/LatFocusedCableRow.png",
+                "sets": 3,
+                "reps": "10-12"
+            },
+            "pausedBarbellRDL": {
+                "name": "Paused Barbell RDL",
+                "imageKey": "Pull/PausedBarbellRDL.png",
+                "sets": 3,
+                "reps": "10-12"
+            },
+            "chestSupportedTBarRow": {
+                "name": "Chest-Supported T-Bar Row + Kelso Shrug",
+                "imageKey": "Pull/ChestSupportedTBar.png",
+                "sets": 4,
+                "reps": "8-10"
+            },
+            "wideGripLatPulldown": {
+                "name": "Wide-Grip Lat Pulldown",
+                "imageKey": "Pull/WideGripLatPulldown.png",
+                "sets": 3,
+                "reps": "10-12"
+            },
+            "dumbbellPreacherCurl": {
+                "name": "Dumbbell Preacher Curl",
+                "imageKey": "Pull/DBPreacherCurl.png",
+                "sets": 3,
+                "reps": "10-12"
+            },
+            "reversePecDeck": {
+                "name": "Reverse Pec Deck",
+                "imageKey": "Pull/ReversePecDeck.png",
+                "sets": 3,
+                "reps": "12-15"
+            }
+        }
+    }
+}
