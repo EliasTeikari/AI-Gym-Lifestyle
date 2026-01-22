@@ -107,6 +107,38 @@
                 "sets": 3,
                 "reps": "12-15"
             }
+        },
+        "armsDay": {
+            "ezBarSkullCrushers": {
+                "name": "EZ-Bar Skull Crushers",
+                "imageKey": "Arms/EZBarSkullCrushers.png",
+                "sets": 3,
+                "reps": "10-12"
+            },
+            "bayesianCurls": {
+                "name": "Bayesian Curls",
+                "imageKey": "Arms/BayesianCurls.png",
+                "sets": 3,
+                "reps": "8-10"
+            },
+            "tricepPushdowns": {
+                "name": "Tricep Pushdowns",
+                "imageKey": "Arms/TricepPushdowns.png",
+                "sets": 3,
+                "reps": "12-15"
+            },
+            "reverseGripCableCurl": {
+                "name": "Reverse-Grip Cable Curl",
+                "imageKey": "Arms/ReverseGripCableCurl.png",
+                "sets": 3,
+                "reps": "12-15"
+            },
+            "romanChairLegRaises": {
+                "name": "Roman Chair Leg Raises",
+                "imageKey": "Arms/RomanChairLegRaises.png",
+                "sets": 3,
+                "reps": "10-15"
+            }
         }
     }
 }
