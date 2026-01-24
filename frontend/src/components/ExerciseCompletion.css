@@ -1,0 +1,15 @@
+.exercise-completion {
+    padding: 0.6rem 1rem;
+    border: 2px solid #7bd88f;
+    border-radius: 999px;
+    background: transparent;
+    color: #7bd88f;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.exercise-completion.is-done {
+    background: #7bd88f;
+    color: #1f1f1f;
+}

@@ -1,12 +1,20 @@
 import "./ExerciseCard.css";
 import type { Exercise } from "../types/exercise";
+import ExerciseCompletion from "./ExerciseCompletion";
 
 type Props = {
     exercise: Exercise;
     baseUrl: string;
+    completion: boolean;
+    onToggle: () => void;
 };
 
-export default function ExerciseCard({ exercise, baseUrl }: Props) {
+export default function ExerciseCard({
+    exercise,
+    baseUrl,
+    completion,
+    onToggle,
+}: Props) {
     return (
         <>
             <div className="exerciseCard">
@@ -18,6 +26,10 @@ export default function ExerciseCard({ exercise, baseUrl }: Props) {
                 <h2>{exercise.name}</h2>
                 <p>Sets: {exercise.sets}</p>
                 <p>Reps: {exercise.reps}</p>
+                <ExerciseCompletion
+                    completed={completion}
+                    onToggle={onToggle}
+                />
             </div>
         </>
     );
