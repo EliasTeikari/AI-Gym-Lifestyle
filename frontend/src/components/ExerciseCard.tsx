@@ -24,7 +24,6 @@ export default function ExerciseCard({
                     className="imageExercise"
                 />
                 <h2>{exercise.name}</h2>
-                <p>Sets: {exercise.sets}</p>
                 <p>Reps: {exercise.reps}</p>
                 <ExerciseCompletion
                     currentSet={currentSet}
