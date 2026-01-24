@@ -1,15 +1,35 @@
 .exercise-completion {
-    padding: 0.6rem 1rem;
+    padding: 0.65rem 1.4rem;
     border: 2px solid #7bd88f;
     border-radius: 999px;
-    background: transparent;
+    background: rgba(123, 216, 143, 0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     color: #7bd88f;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 0.95rem;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 12px rgba(123, 216, 143, 0.15);
+    text-shadow: 0 0 8px rgba(123, 216, 143, 0.4);
+}
+
+.exercise-completion:hover:not(.is-done) {
+    background: rgba(123, 216, 143, 0.22);
+    box-shadow: 0 4px 20px rgba(123, 216, 143, 0.35);
+    transform: translateY(-1px);
+}
+
+.exercise-completion:active:not(.is-done) {
+    transform: translateY(0);
 }
 
 .exercise-completion.is-done {
-    background: #7bd88f;
-    color: #1f1f1f;
+    background: rgba(123, 216, 143, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #1a1a1a;
+    text-shadow: none;
+    box-shadow: 0 4px 16px rgba(123, 216, 143, 0.4);
+    cursor: default;
 }

@@ -1,0 +1,65 @@
+.exerciseCard {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(200, 100, 255, 0.5);
+}
+
+.imageExercise {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    min-height: 320px;
+}
+
+/* Base glass overlay styling */
+.glass-overlay {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(30, 30, 30, 0.55);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 14px;
+    padding: 0.6rem 1.2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Title overlay at the top */
+.title-overlay {
+    top: 16px;
+    min-width: 60%;
+    text-align: center;
+}
+
+.title-overlay h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.02em;
+}
+
+/* Info overlay at the bottom */
+.info-overlay {
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+}
+
+.info-overlay .reps {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
