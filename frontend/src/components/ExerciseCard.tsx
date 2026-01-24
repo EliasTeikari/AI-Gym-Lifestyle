@@ -5,15 +5,15 @@ import ExerciseCompletion from "./ExerciseCompletion";
 type Props = {
     exercise: Exercise;
     baseUrl: string;
-    completion: boolean;
-    onToggle: () => void;
+    currentSet: number;
+    onAdvance: () => void;
 };
 
 export default function ExerciseCard({
     exercise,
     baseUrl,
-    completion,
-    onToggle,
+    currentSet,
+    onAdvance,
 }: Props) {
     return (
         <>
@@ -27,8 +27,9 @@ export default function ExerciseCard({
                 <p>Sets: {exercise.sets}</p>
                 <p>Reps: {exercise.reps}</p>
                 <ExerciseCompletion
-                    completed={completion}
-                    onToggle={onToggle}
+                    currentSet={currentSet}
+                    totalSets={exercise.sets}
+                    onAdvance={onAdvance}
                 />
             </div>
         </>

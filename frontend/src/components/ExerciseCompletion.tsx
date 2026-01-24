@@ -1,19 +1,32 @@
 import "./ExerciseCompletion.css";
 
 type Props = {
-    completed: boolean;
-    onToggle: () => void;
+    currentSet: number;
+    totalSets: number;
+    onAdvance: () => void;
 };
 
-export default function ExerciseCompletion({ completed, onToggle }: Props) {
+export default function ExerciseCompletion({
+    currentSet,
+    totalSets,
+    onAdvance,
+}: Props) {
+    const isFinished = currentSet > totalSets;
+    const label = isFinished
+        ? `Set ${totalSets} Done`
+        : currentSet === totalSets
+        ? "Final set"
+        : `Set ${currentSet}`;
+
     return (
         <div>
             <button
                 type="button"
-                className={`exercise-completion ${completed ? "is-done" : ""}`}
-                onClick={onToggle}
+                className={`exercise-completion ${isFinished ? "is-done" : ""}`}
+                onClick={onAdvance}
+                disabled={isFinished}
             >
-                {completed ? "Done ✔" : "Mark as done"}
+                {label}
             </button>
         </div>
     );
